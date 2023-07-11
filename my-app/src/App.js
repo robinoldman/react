@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import FunctionalGreeting from './components/FunctionalGreeting';
-import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
+import MethodsAsPropsChild from './components/MethodsAsPropsChild';
+import MethodsAsPropsParent from './components/MethodAsPropsParent';
+
 function App() {
   return (
     <div className="App">
-     <FunctionalGreeting />
-     <FunctionalGreetingWithProps />
-     </div>
+      < MethodsAsPropsChild/>
+      < MethodsAsPropsParent/>
+    </div>
   );
 }
 

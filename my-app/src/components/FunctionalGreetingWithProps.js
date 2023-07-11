@@ -1,9 +1,10 @@
 import React from "react";
 
-const FunctionalGreetingWithProps = () => <h1>
-    Hello
-</h1>
-    return <h1> Hello</h1>
+const FunctionalGreetingWithProps = (props) => {
+    console.log(props)
+    return <h1>Hello,{props.name} I see you are {props.age} {props.greeting} </h1>
+
+    ;}
 
 
 
