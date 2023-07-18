@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import MethodsAsPropsChild from './components/MethodsAsPropsChild';
-import MethodsAsPropsParent from './components/MethodAsPropsParent';
+import ControlledForm from './components/ControlledForm';
 
 function App() {
   return (
     <div className="App">
-      < MethodsAsPropsChild/>
-      < MethodsAsPropsParent/>
+      < ControlledForm />
+
     </div>
   );
 }
